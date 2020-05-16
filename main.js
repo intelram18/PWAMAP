@@ -77,7 +77,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Update UI to notify the user they can add to home screen
 
 
-  addBtn.addEventListener('click', (e) => {
+ // addBtn.addEventListener('click', (e) => {
     // hide our user interface that shows our A2HS button
     
     // Show the prompt
@@ -91,5 +91,5 @@ window.addEventListener('beforeinstallprompt', (e) => {
         }
         deferredPrompt = null;
       });
-  });
+  //});
 });
